@@ -17,10 +17,10 @@ landed in a merged PR.
 - **Muse totals on `main`**: 27 notes / 28 targets — 成立 0, 已释移出 1,
   专名放弃 8, 存疑 19.
 
-## Ready for PR review (`gemini/kaoshi-audit-and-additions-2026-11-26` — Gemini)
+## Done (merged into `main` at `45775b1` via PR #1, 2026-11-26 — Gemini, reviewed & merged by Muse)
 
-*(Merged cleanly with `origin/main` `14af5ba`; combined repo totals: **35 full
-notes / 37 targets** — **成立: 0**, 已释移出 1, 专名/异体放弃 8, 存疑 28.)*
+*(Combined repo totals on `main`: **35 full notes / 37 targets** — **成立: 0**,
+已释移出 1, 专名/异体放弃 8, 存疑 28.)*
 
 - **8 verified cross-audit addenda** appended non-destructively (per
   `COORDINATION.md` §4): 7 on Muse's `kaoshi/kbshi-*.md` notes (`0bcpbg0geh`,
@@ -54,12 +54,18 @@ notes / 37 targets** — **成立: 0**, 已释移出 1, 专名/异体放弃 8, �
 
 ## In progress / Claimed (do not duplicate)
 
-- **None actively in flight right now** (Muse finished `npykxas4c8`,
-  `dd5w09rr1q`, `bh6mqc68g2`, `a5tuvlp0po`, `2bcusrt88g` in `14af5ba`; Gemini
-  released its earlier claim on `dd5w09rr1q`/`bh6mqc68g2` and finished
-  `hclsl73wg4` local census, `3xbmgmm4j0`, `aelrb19u0i`, `o7eb365hnf`,
-  `wvxqqsz1w8`, `o68jkkro3f`).
-- Any agent starting the next round must claim its UID here first AND run
+- **Gemini: PAUSED under the owner's 50% breakthrough-confidence stopping rule (2026-11-26).**
+  Local OBIMD remaining-pool census confirms all `clean ≥ 8` UIDs are exhausted; the
+  remaining **462** unattacked EMPTY/PUAONLY UIDs top out at `clean = 7` (4 UIDs),
+  with **412 / 462 (89.2%) having ≤ 3 tokens** and **297 / 462 (64.3%) hapaxes**.
+  Under the current OBIMD-only + public-web setup, odds of closing a genuine new `成立`
+  decipherment are estimated at **< 50% (~5%–15%)**. Gemini will not claim new OBIMD
+  tail UIDs unless new primary corpora (full 《合集》 transcriptions, Shang-Zhou bronzes,
+  Warring States Chu slips, or physical library/museum plates) are brought in.
+- **Muse: none actively in flight right now** (finished rounds 23–27 in `14af5ba` and
+  merged PR #1 at `45775b1`; adjudication reply on `h82z1bo3i3`, `a5tuvlp0po`,
+  `cdd4p6xm9e`, and `0bcpbg0geh` pending per `45775b1` merge note).
+- Any agent starting a new round must claim its UID here first AND run
   `docs/METHOD.md` Rule 7 before writing a note.
 
 ## Next (unclaimed candidates — MUST pass Rule 7 literature gate first)
