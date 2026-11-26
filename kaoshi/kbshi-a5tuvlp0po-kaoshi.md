@@ -209,3 +209,21 @@
 - 本筆記：`kbshi-a5tuvlp0po-kaoshi.md`
 - 圖像（`images/`）：`std_a5tuvlp0po.png`（標準圖主子形）、`std_dnvgo0sryv.png`（標準圖 dnvgo 子形）、`crop_a5tuvlp0po.png`（8 例摹本拼圖）、`crop_a5tu_H5384_.png`、`crop_a5tu_H10195_.png`、`crop_a5tu_H13353_.png`、`crop_a5tu_H15801_.png`、`crop_a5tu_H15802_.png`、`crop_a5tu_H15804_.png`、`crop_a5tu_H15805_.png`、`crop_a5tu_H23610_.png`（放大摹本）、`fac_H5384.png`、`fac_H10195.png`、`fac_H13353.png`、`fac_H15801.png`、`fac_H15802.png`、`fac_H15804.png`、`fac_H15805.png`、`fac_H23610.png`（整片摹本）、`compare_a5tu_vessels.png`（本字／鬯／彝／尊／爵／卣／角／斝／束／來／益／食／鼎／𣎳／黍／麥／禾／𠬝／合／盂／壴；標籤 CJK 顯示為方框，見 §2.2）、`compare_a5tu_chang_zun_nan.png`（鬯 4 子形／尊 2 子形／祼 8 子形／酉 5 子形）、`compare_a5tu_you.png`（酓／酌／鬯／尊／卣／酉）
 - 本地腳本（`~/workspace/oracle-screening/obimd/`）：`rank_next2.py`、`slots_next2.py`、`analyse_a5tu.py`、`analyse_a5tub.py`、`compare_a5tu.py`、`compare_a5tub.py`、`compare_a5tuc.py`、`crop_a5tu.py`、`crop_a5tu2.py`、`sent_a5tuvlp0po.txt`、`slots_next2.txt`、`analyse_a5tu.txt`
+
+---
+
+## Gemini 附記（2026-11-26）
+
+> 依 `COORDINATION.md` §4，本附記不改動原筆記之結論行與四環打分，僅補充 Rule 7 外部文獻排重與本地原摹本核查結果，供作者與專案擁有者裁決。
+
+### 本字已有學界權威考釋：裘錫圭考定之打擊樂器／樂祭名「鞀（鼗）」（非酒器「酉」）
+
+經按片號檢核公開刊布釋文與古文字學界專論，本字（`a5tuvlp0po`、`U+C7C41`）並非未釋酒類字，而是著名古文字學家**裘錫圭**早已破譯之商代搖鼓樂器與樂祭專名 **`鞀`（古同「鼗」，後世文獻「大韶／大㲈」之源）**：
+
+1. **已刊布辭例逐字吻合原筆記附錄**：
+   - **《合集》23610**（原筆記讀作 `庚寅卜出貞于翊乙未大 __`）：學界通行釋文為 **`庚寅卜，出貞：于翌乙未大鞀`**（「大鞀」即以鞀鼓為主奏之大型樂舞祭儀，對照《周禮·大司樂》「大㲈」、《獨斷》「大韶」）；
+   - **《合集》15802**（原筆記讀作 `貞 __ 隹㞢`）：通行釋文作 **`鞀唯侑`**；
+   - **《合集》15805**（原筆記讀作 `……丁亥王□益 __`）：通行釋文作 **`王益鞀`**。
+2. **字形實證訂正（見 `kaoshi/images/crops_a5tuvlp0po.png` 與 `kaoshi/images/priority_audit_sheet.png`）**：
+   - 原筆記將下部尖底構件比附酒尊「酉」、從而將語義場判為「酒類」；實則 8 幅摹本（含 H23610、H15802、H15805）所示為**上部雙手／羽飾或鼓槌、中部小矩形鼓身、下部帶橫杠之鼓柄底座**（早年郭沫若《卜辭通纂》曾誤疑象「兩人奉尊」讀召，經裘錫圭對比「置庸」「置鼓」等辭例系統訂正為「鞀」）。
+3. **建議處置**：建議專案擁有者與 Muse 共同裁決後，將 `a5tuvlp0po`（`鞀`）自 `RESULTS.md` C 節「存疑」移入 **A 節「已釋字（移出攻擊池）」**（與 `𠬝 = 服`、`𰇑 = 𣆑／冊`、`cdd4p6xm9e = 勺` 同列），以維持本庫「已破解不算」之硬性口徑。
