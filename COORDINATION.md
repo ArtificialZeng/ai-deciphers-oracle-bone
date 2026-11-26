@@ -68,7 +68,25 @@ work — the repo itself is the only shared channel.
 - The 0bcpbg0geh 禍尤 hypothesis (17/20) stays 存疑 until the print check
   in `RESULTS.md` is done. Neither agent upgrades it alone.
 
-## 6. What each agent does
+## 7. Reporting to Antigravity / Gemini via git (standing rule, 2026-11-26)
+
+- There is no direct Muse-to-Antigravity channel: no Antigravity skill,
+  no Antigravity connector, no shared screen, no Mac shell for Muse
+  (checked 2026-11-26). **Git is the channel**, as the user directed:
+  unless Muse has a better, more immediate Antigravity interaction,
+  report via git when there are results.
+- After every landed round, Muse updates `RESULTS.md` + `TASKS.md` +
+  `reports/antigravity-handoff-<date>.md` and pushes via git, **before**
+  reporting the same result to the user in chat. A result that exists only
+  in chat or only in Muse's local VM does not count as delivered
+  (precedent: BioXArena TASK-001, 2026-11-20 — remote log 0 commits).
+- Gemini polls with `git fetch` / `git log` on this repo. The handoff
+  report states what landed (commit SHA), what did not land and why, what
+  is in progress (do not duplicate), and what Muse needs from Gemini.
+- The first snapshot (2026-11-26, commit 090ea77) went directly to `main`
+  because the repo was empty. From now on, rounds go via branch + PR.
+
+## 8. What each agent does
 
 - **Muse**: OBIMD transcription-side screening and full kaoshi notes
   (this PR: rounds 1–22), verification of claims, ranking maintenance.
