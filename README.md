@@ -5,6 +5,25 @@ scholarly 考释 (kaoshi) for every character attacked. Work starts from the
 simplest / highest-frequency undeciphered graphs and works down the frequency
 ranking. Nothing is called "solved" until the evidence chain closes.
 
+## 最新变更速览（Changelog — 每次 PR 改了什么）
+
+| 日期 / 提交 | 来源 | 核心变更一览 |
+|---|---|---|
+| **2026-11-26 · PR #2（本分支）** | Gemini | 在 `README.md` 顶部补充中文「最新变更速览」与**阶段性可行性／止损评估**：基于 OBIMD 剩余未攻池实测（462 字上限 ≤7 例、89.2% ≤3 例、64.3% 孤证），当前工具条件下产出真正 `成立` 新破译的置信度 **< 50%（约 5%–15%）**，按用户要求**暂停继续刷 OBIMD 低频尾池**，同步更新 `TASKS.md` 与 `reports/gemini-handoff-2026-11-26.md`。 |
+| **2026-11-26 · PR #1（已合入 `45775b1`）** | Gemini（Muse 审阅合并） | ① **8 篇非破坏性交叉复核附记**（对 Muse 原笔记 0 行删改）：证伪 `0bcpbg0geh`「禍尤」合文说并闭环 `U+B6AF4` 码位；本地 10 幅摹本实锤 `cdd4p6xm9e = 勺（礿）`；查实 Muse R26 `a5tuvlp0po = 裘锡圭「鞀」`、R8 `h82z1bo3i3 = 𰇑（𣆑/冊）`；锁定 `ff8rp0nh6u = 洅`（及 `匸丙 = 報丙`）、`crck62eltz = 不𦀓鼄`、`gx21ndp7yy = 王宁「案→宴」`、`qw5vx1k0rw` 禁止副词 `弜` 锁动词。<br>② **Rule 7 预筛拦截 5 个 OBIMD 未归并已释字**：`e33qe36es7 = 舞`（原 Muse 下轮 #2！）、`pmjqw82db0 = 衛`、`01v0id7th0 = 黍`、`dzob6ag7n1 = 最/子`、`gbjr7sabn4 = 豕`。<br>③ **新增 8 篇 Gemini 独立考释笔记（覆盖 9 个目标，全部严格 `存疑`）**：`𫹉`（452 clean 本地全槽实测）、《合集》36481 `白[⿱鹿文]`、`𠦪`、`𢀛方`（`𢀛` vs `召` 分期互补首测），以及 5 个附全套原摹本裁图的真未释字 `3xbmgmm4j0`、`aelrb19u0i`、姊妹同基字组 `o7eb365hnf`（`東+戉`）& `wvxqqsz1w8`（`東+攴`）、`o68jkkro3f`。<br>④ **首次入库 9 张本地实测 PNG 图版**（`kaoshi/images/`），新增 `docs/METHOD.md` Rule 7 与 `docs/EXCLUSION-LIST-2026.md`。 |
+| **2026-11-26 · `14af5ba`** | Muse | 第 23–27 轮（5 篇新笔记：`npykxas4c8`、`dd5w09rr1q`、`bh6mqc68g2`、`a5tuvlp0po`、`2bcusrt88g`），全库二次重排。 |
+| **2026-11-26 · `090ea77` / `b8e1842`** | Muse | 初始全库基线（第 1–22 轮 22 篇笔记 / 23 目标、`ranking-20261126.md`、方法论与交接文档）。 |
+
+## 阶段性可行性与止损评估（2026-11-26 — 按 50% 信心阈值暂停攻关）
+
+- **当前结论**：在现有工具与语料边界（OBIMD 10,077 条子集 + 公开网页文献）下，继续向剩余低频未释池攻关以产出**真正达到学界／悬赏标准的全新破译（`成立`）**的概率 **显著低于 50%（客观估算约 5%–15%）**。按项目拥有者「**不到 50% 信心就不继续**」的原则，**Gemini 侧现暂停继续扫荡 OBIMD 低频尾池**。
+- **量化依据（OBIMD `data.json` 本地实测）**：
+  1. **已攻高优池破译率 `0 / 37`**：双方已完成全部 `clean ≥ 8` 的高价值候选与 5 个 5–7 例真未释动词，最佳成果稳定在 10–12/20（`存疑`），证实仅靠 OBIMD 可以精准锁死「形」与「义／用」槽位，但**无法闭合「音」环与商→周→战国→《说文》演变链**。
+  2. **剩余 462 个未攻 UID 频次断崖**：`clean = 7` 仅 **4 字**、`6` 仅 **6 字**、`5` 仅 **13 字**、`4` 仅 **27 字**、`3` 为 **45 字**、`2` 为 **70 字**、`1`（孤证）高达 **297 字（64.3%）**——即 **89.2%（412/462）样本量 ≤ 3 例**，且前 20 名中绝大多数呈显性专名槽（`卜__貞`、`子__`、`于__`、`在__`、`伐__`、`帚__`）或未归并已释异体。
+  3. **跨过 50% 门槛所需的真正缺口**：需接入**全量《合集》＋《合补》＋《屯南》＋《花东》权威释文库**、**商周金文（《集成》《铭图》）与战国楚简（清华／上博／郭店／包山）跨时代字形—通假对齐库**、以及纸本**《新甲骨文编》《甲骨文字综理表》（2024）**与馆藏原拓高精图像（如国博 Y0699、拉曼光谱等），而非继续在 OBIMD 孤证尾池空转。
+
+---
+
 ## Status — read this first (2026-11-26)
 
 - **Decipherments established (成立): 0.** No new character has been deciphered
@@ -13,7 +32,7 @@ ranking. Nothing is called "solved" until the evidence chain closes.
 - **Total full kaoshi notes: 35**, covering **37 targets** — **27 Muse notes**
   (`kaoshi/kbshi-*.md`, 28 targets, rounds 1–27) + **8 Gemini standalone notes**
   (`kaoshi/gemini-*.md`, 9 targets). Per `COORDINATION.md` §4, Muse's original
-  verdicts are preserved untouched pending owner adjudication of Gemini's
+  verdicts are preserved untouched pending Muse/owner adjudication of Gemini's
   2026-11-26 cross-audit addenda:
   - **Already-deciphered graph removed from the attack list (放弃〔已释〕): 1**
     — `𠬝` (`cvzszyp6bm`, original form of 服 *fú*, 16/20). *(Gemini's
@@ -80,34 +99,6 @@ each 0–5) and falsifiers. Local 《合集》释文 OCR "readings" (懈, 孵, �
 - `COORDINATION.md` — how Muse and Gemini work on this repo without
   clobbering each other. **Read it before pushing.**
 - `TASKS.md` — the claim board: who is attacking what, what is next.
-
-## Key updates & next highest-leverage checks (2026-11-26)
-
-- **Local OBIMD corpus audited & 5 new genuine undeciphered UIDs profiled:**
-  Gemini downloaded official `KLOBIP/OBIMD` (CC-BY 4.0) locally, completed the
-  452-clean census of **`hclsl73wg4` (`𫹉`)** (39 negative-adverb co-occurrences;
-  11 co-occurrences with single-graph `彡`), visually proved **`cdd4p6xm9e` =
-  `勺（礿）`** (`crops_cdd4p6xm9e.png`), audited **`a5tuvlp0po` = 裘锡圭 `鞀`**
-  (`crops_a5tuvlp0po.png`), closed the **`0bcpbg0geh` `U+B6AF4` vs `U+2BD12`**
-  codepoint check, intercepted 5 unmerged known characters before attack (saving
-  Muse from attacking `e33qe36es7 = 舞`), and produced full facsimile-backed
-  kaoshi notes for **5 genuine undeciphered OBIMD survivors**: `3xbmgmm4j0`,
-  `aelrb19u0i`, sister pair `o7eb365hnf` (`東+戉`) & `wvxqqsz1w8` (`東+攴`), and
-  `o68jkkro3f`.
-- **`0bcpbg0geh` falsifier triggered:** Published transcriptions of《合集》35399,
-  35401, and 35530 unanimously read the graph after `旬亡` as a **single word**
-  (`禍/憂`), never two words `"禍尤"`, refuting Hypothesis A (`禍尤` ligature)
-  in favor of Hypothesis B (the Period V Huang-group elaborated single-word
-  variant `[⿰𡆥犬/它/尤]`).
-- **Highest-leverage remaining library / physical checks (see `RESULTS.md` & `TASKS.md`):**
-  1. Printed 《合集释文》 lookups for Vol. 12 (`H35398–H35911`) and the 5 newly
-     profiled OBIMD ranges (`H31994–33232`, `H12641–12665`, `H575–8132`,
-     `H30329–30455`, `H471–15823`).
-  2. Physical / specialist falsifiers: National Museum Y0699 macro check
-     (`白[⿱鹿文]`), Western Zhou chariot-ornament rhyme test (`𠦪`), Raman HgS
-     spectroscopy (`不𦀓鼄`), 2003 Huayuanzhuang East published transcriptions
-     (`gx21ndp7yy` `案→宴` test on HD290/454/475), and full-《合集》 4D
-     co-occurrence matrix (`𢀛方` vs `召方`).
 
 ## Honesty rules (binding on every contributor)
 
