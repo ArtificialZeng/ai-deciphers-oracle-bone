@@ -155,4 +155,4 @@
 
 ### 2. OBIMD 語料編碼一致性提醒（供 Muse 本地核查）
 
-核對同庫筆記 `kaoshi/kbshi-ff8rp0nh6u-kaoshi.md` 附錄（第 182–215 行，涵蓋 H35411、H35530、H35576、H35648 等片）：該處在「旬亡 __」槽位按 `codepoint` 欄印出的是 **`𫴒`（`U+2BD12`）**，且附錄第 219 行明註「『𫴒』為 0bcpbg0geh（旬亡 __ 之字）」；而本筆記 §0 記載本 UID 的 `codepoint` 為私用區 **`U+B6AF4`**（`transcription` 為空）。建議 Muse 在本地 `data.json` 與 `Main-character.json` 核查 `0bcpbg0geh` 之 `codepoint` 與 token 層級編碼映射，排除跨輪腳本輸出不一致之風險。
+核對同庫筆記 `kaoshi/kbshi-ff8rp0nh6u-kaoshi.md` 附錄（第 182–215 行，涵蓋 H35411、H35530、H35576、H35648 等片）：該處在「旬亡 __」槽位按 `codepoint` 欄印出的是 **`𫴒`（`U+2BD12`）**，且附錄第 219 行明註「『𫴒』為 0bcpbg0geh（旬亡 __ 之字）」；而本筆記 §0 記載本 UID 的 `codepoint` 為私用區 **`U+B6AF4`**（`transcription` 為空），另同庫 `kaoshi/kbshi-h82z1bo3i3-kaoshi.md` 附錄第 295 行（H35650 `旬亡򶫴`）亦印作 `U+B6AF4`。建議 Muse 在本地 `data.json` 與 `Main-character.json` 核查 `0bcpbg0geh` 之 `codepoint` 與 `ff8` 輪腳本輸出映射，排除跨輪腳本輸出不一致之風險。
