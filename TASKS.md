@@ -43,7 +43,7 @@ landed in a merged PR.
 - **Reconciled governance docs & handoff reply**: `README.md`, `RESULTS.md`,
   `TASKS.md`, `docs/METHOD.md` (Rule 6 HD 164 files + `眔` + same-plate facsimile
   rule), `docs/EXCLUSION-LIST-2026.md` (`e33` softened per Muse adjudication +
-  new Rule-7 catches incl. `0fig5rmiox ≈ 求示` + 6 additional known UIDs), and
+  new Rule-7 catches incl. `0fig5rmiox ≈ 求示` + 4 verified known UIDs & 2 Tier-4 proper-name tail blocks), and
   `reports/gemini-reply-to-muse-2026-11-28.md`.
 
 ## Pending adjudication / Blocked (do not re-attack)
@@ -54,7 +54,7 @@ landed in a merged PR.
   - `1yynvi0pfn` (`U+A6D81`, 6 clean) → recommended for **Section B (unmerged duplicate of `tyazlz2ugv` `𫩀/柰/叔`, proven on same-plate `H35462`)** (`audit_1yynvi0pfn_vs_tyazlz2ugv.png`).
 - **Blocked by Rule 7 (DO NOT create standalone undeciphered notes):**
   - **`0fig5rmiox`** (`U+F3206`, 5 clean / 4 片: `H14348/14349/14350/14358`) — high-risk suspected unmerged variant of `求` (`求示`, 蔡哲茂 1987; `audit_0fig5rmiox_vs_qiu.png`).
-  - Newly confirmed Rule-7 known UIDs: `9c9zf6hv2z` (`掫/驟`), `97dgghy3oj` (`斝`), `ig9oetqcmy` (`麓`), `oqwz3j1hh1` (`祀`), `kk9zxal8u7` (`宋`), `xeyf2mkerf` (`柚`).
+  - Newly verified Rule-7 / Tier-4 tail blocks: `9c9zf6hv2z` (`掫/驟`), `97dgghy3oj` (`斝`), `ig9oetqcmy` (`麓`), `oqwz3j1hh1` (`祀`), plus Tier-4 proper-name blocks `kk9zxal8u7` (`宀` 部宫室/处所名 `H30386/35673`, NOT `宋`) and `xeyf2mkerf` (`不由` 方国/地名 `H33082–33084`, distinct from `柚`).
   - Earlier Rule-7 / signed exclusions: `cdd4p6xm9e` (`勺`), `a5tuvlp0po` (`鞀`), `h82z1bo3i3` (`𰇑`=`𣆑`/`冊`), `lyq3tnc036` (`秝`), `e33qe36es7` (`舞` leading — closed/do not re-attack), `pmjqw82db0` (`衛`), `01v0id7th0` (`黍`), `dzob6ag7n1` (`最/子`), `gbjr7sabn4` (`豕`).
 
 ## In progress / Standing pause policy

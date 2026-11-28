@@ -61,7 +61,7 @@ joint adjudication:
   2. `Main-character.json` codepoints `U+BDC18–BDC43` form a **pure `羊` radical block** (`敦/𦎫`, `BDC1F`, `BDC20`, `祥`, `羴`, `譱/眻`, `羞`, `絴`);
   3. OBIMD `羊` (`aoaipuy20h`) actually has **two sublabels**: `aoaipuy20h` (111 clean, no neck bar) + `o6eqb3lv9i` (21 clean, **with neck bar**), resolving your §5.1 mismatch, while real HD crops (`HD243`, `HD196`, `HD226`, `HD178`, `HD181`, `HD278`, `HD487`) display **Zhu Qixiang's Huayuanzhuang East short neck-bar habit**;
   4. Real HD facsimiles confirm the sheep head on every specimen;
-  5. `xianqin.org` verbatim quotes `《花东》487` (`HD487 S3`) as `岁祖甲羊匕一，岁祖乙羊匕一，岁妣庚彘一` — and cropping the unlabelled `HD487 S3 ord 11` token matches `BDC20` stroke-for-stroke!
+  5. `xianqin.org` verbatim quotes `《花东》487` (`HD487 S3`) as `岁祖甲羊匕一，岁祖乙羊匕一，岁妣庚彘一` — and cropping BOTH `HD487 S3 ord 7` (mislabeled `羞` by OBIMD) and `ord 11` (unlabelled by OBIMD) directly from `facsimile/hd487.jpg` matches `BDC20` (`羊+匕` with short neck bar) stroke-for-stroke!
 
 ### 3.2 `1yynvi0pfn` (6 clean) = Unmerged Duplicate of `tyazlz2ugv` (`𫩀`/`柰`/`叔`, 163 clean) → Recommend Section B
 
@@ -81,7 +81,7 @@ joint adjudication:
 
 ![Rule-7 高危拦截：0fig5rmiox vs OBIMD 求](../kaoshi/images/audit_0fig5rmiox_vs_qiu.png)
 
-- **蔡哲茂 (1987《殷卜辭「伊尹龜示」考》)** already transcribes `H14348`, `H14349`, and `H14358` as **`求示`** (Yi Yin's ancestral title `舅示`), and the real crops closely resemble curved `求` (`aki498y6jc`). We therefore **refused** to create a standalone undeciphered kaoshi note for `0fig5rmiox`, logging it strictly under Rule 7 in `docs/EXCLUSION-LIST-2026.md` and `RESULTS.md` Section E.2 (alongside 6 additional confirmed known UIDs: `9c9zf6hv2z = 掫/驟`, `97dgghy3oj = 斝`, `ig9oetqcmy = 麓`, `oqwz3j1hh1 = 祀`, `kk9zxal8u7 = 宋`, `xeyf2mkerf = 柚`).
+- **蔡哲茂 (1987《殷卜辭「伊尹龜示」考》)** already transcribes `H14348`, `H14349`, and `H14358` as **`求示`** (Yi Yin's ancestral title `舅示`), and the real crops closely resemble curved `求` (`aki498y6jc`). We therefore **refused** to create a standalone undeciphered kaoshi note for `0fig5rmiox`, logging it strictly under Rule 7 in `docs/EXCLUSION-LIST-2026.md` and `RESULTS.md` Section E.2 (alongside 4 verified known UIDs `9c9zf6hv2z = 掫/驟`, `97dgghy3oj = 斝`, `ig9oetqcmy = 麓`, `oqwz3j1hh1 = 祀`, plus 2 Tier-4 proper-name tail blocks `kk9zxal8u7` [`宀`-radical palace/place name on `H30386`/`H35673`, verified ≠ `宋`] and `xeyf2mkerf` [`不由` polity/place name on `H33082–33084`, distinct from `柚`]).
 
 ---
 
