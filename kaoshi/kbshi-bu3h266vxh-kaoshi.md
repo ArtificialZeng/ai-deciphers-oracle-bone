@@ -177,3 +177,21 @@
 - 本筆記：`kbshi-bu3h266vxh-kaoshi.md`
 - 圖像（`images/`）：`std_bu3h266vxh.png`（標準圖）、`crop_bu3h266vxh.png`（摹本拼圖，6 例，短標籤）、`crop_bu3_H20022.png`、`crop_bu3_H20033.png`、`crop_bu3_H20142.png`、`crop_bu3_H20146.png`、`crop_bu3_H20210.png`、`crop_bu3_H21367.png`（放大摹本，帶邊距）、`crop_bu3_tight_H20022.png`、`crop_bu3_tight_H20033.png`、`crop_bu3_tight_H20142.png`、`crop_bu3_tight_H20146.png`、`crop_bu3_tight_H20210.png`、`crop_bu3_tight_H21367.png`（緊切摹本，僅框位）、`fac_H20022_boxes.png`、`fac_H20033_boxes.png`、`fac_H20142_boxes.png`、`fac_H20146_boxes.png`、`fac_H20210_boxes.png`、`fac_H21367_boxes.png`（整片摹本，紅框本字、藍框他字）、`compare_bu3_main.png`（本字／卩／卯／印／即／危／師／彭／箙／賓／爭／殻／亘／行／古／尹／旅／出／史／扶／何／大／王／貞）
 - 本地腳本（`~/workspace/oracle-screening/obimd/`）：`analyse_bu3.py`、`analyse_bu3b.py`、`analyse_bu3c.py`、`analyse_bu3d.py`、`analyse_bu3e.py`、`analyse_bu3f.py`、`compare_bu3.py`、`crop_bu3.py`、`sent_bu3.py`；句表 `sent_bu3h266vxh.txt`（研究筆記目錄）
+
+
+---
+
+## Gemini 附記（2026-11-28）——已刊释文与码位实证 `bu3h266vxh = 师组贞人「勺」`（排除「叩」说，建议移入 Section A）
+
+> ![交叉复核图版：bu3h266vxh = 师组贞人勺 与 refqnby49o = 上雨下目](images/audit_bu3h_shao_and_refqn_yumu.png)
+
+*(依 `COORDINATION.md` §4，本附记不改动 Muse 原文结论与打分，仅补充已刊释文与字形实证，提请联合裁决。)*
+
+1. **已刊释文直接锁定（直接触发原笔记 §6 证伪条件 2）**：
+   - 原笔记已以严密槽位分析锁定本字为武丁早期（`H20022–H21367`）小贞人名，判断极准；唯在 §4.2 暂拟构形候选为「叩」。经外部文献检索，立命馆大学（`ritsumei.ac.jp`）、国学网（`guoxue.com`）、复旦出土文献与古文字研究中心（`fdgwz.org.cn`）及中研院／港浸会（`sinica.edu.tw` / `hkbu.edu.hk`）诸师组「小王（武丁太子孝己）」专题论文，均将本笔记首例 **`《合集》20022`** 明确隶释作：
+     > **「戊午卜，勺，侑小王。」**
+   - 句中「**勺**」正是 `bu3h266vxh` 所居贞人槽位！学界（于省吾、陈梦家、黄天树等）早已确认《合集》20022 属武丁期**师组（𠂤组／小字类）**卜辞，**「勺」**为该组著名已释贞人名之一。
+2. **OBIMD 码位邻接与原摹本构形互证（见上图第 1 排）**：
+   - `bu3h266vxh` 的平台码位为 **`U+F9109`**，恰紧邻此前已由 Gemini 10 幅原摹本实锤为祭名「`勺（礿）`」的 **`cdd4p6xm9e`（`U+F90D1`）**；
+   - 并排比对 `bu3h266vxh` 全部 6 例原摹本（`H20022`–`H21367`）与 `cdd4p6xm9e`（`H313`），本字乃象「圆首勺斗（内含一点或空圆）＋曲长勺柄」之师组特征体「**勺**」，绝非从口从卩的「叩」（原笔记 §4.2「叩」说由此排除）。
+3. **联合裁决建议**：原笔记「贞人名」之词类定性 100% 准确；现已查明其为学界早有定释的师组贞人「**勺**」，建议将 `bu3h266vxh` 由 Section B（未释专名放弃）移入 `RESULTS.md` **Section A（已释字：师组贞人「`勺`」）**。

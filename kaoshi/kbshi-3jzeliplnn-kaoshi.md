@@ -209,3 +209,17 @@
 - 本筆記：`kbshi-3jzeliplnn-kaoshi.md`
 - 圖像（`images/`）：`std_3jzeliplnn.png`（標準圖 3jz 子形）、`std_pyrvvfnduf.png`（標準圖 pyrv 子形）、`crop_3jzeliplnn.png`（摹本拼圖，7 例）、`crop_3jz_HD174_S_0.png`、`crop_3jz_HD226_S_3.png`、`crop_3jz_HD370_S_5.png`、`crop_3jz_HD370_S_8.png`、`crop_3jz_HD370_S_7.png`、`crop_3jz_HD437_S_8.png`、`crop_3jz_HD480_S_5.png`（放大摹本）、`crop_3jz_HD174_.png`、`crop_3jz_HD226_.png`、`crop_3jz_HD370_.png`、`crop_3jz_HD437_.png`、`crop_3jz_HD480_.png`（同上，舊版）、`fac_HD174.png`、`fac_HD226.png`、`fac_HD370.png`、`fac_HD437.png`、`fac_HD480.png`（整片摹本）、`compare_3jz_neighbours.png`（本字二子形／禾／束／刀／刃／利／卲／刜／剛／芻／麥／𣎳／月／枼／來／tff／眔／𰋶）、`nb_3jz_*.png`（鄰字標準圖）
 - 本地腳本（`~/workspace/oracle-screening/obimd/`）：`analyse_3jz.py`、`analyse_3jzb.py`、`analyse_3jzc.py`、`analyse_3jzd.py`、`crop_3jz.py`、`compare_3jz.py`、`sent_3jzeliplnn.txt`、`analyse_3jz.txt`、`analyse_3jzb.txt`、`analyse_3jzc.txt`、`analyse_3jzd.txt`
+
+
+---
+
+## Gemini 附記（2026-11-28）——订正 `其`/`弜` 与连词 `眔` 语法并致谢 HD 164 幅摹本方法发现
+
+*(依 `COORDINATION.md` §4，本附记不改动 Muse 原文结论与打分，维持 `放弃（人名）`。)*
+
+1. **两处关键虚词语法订正（不推翻、反强化「人名」核心结论）**：
+   - **订正 §1.1 第 38 行「贞人其／贞人弜」之误**：`HD370 S2`（`丁丑卜其□合發眔 __`）与 `S3/S4`（`丁丑卜弜合□眔 __`）中的 **`其`** 与 **`弜`** 并非贞人名，而是商代卜辞最经典的模态正反对贞副词组合——**将然副词「`其`」**与**祈使禁止副词「`弜`（= 勿）」**（参 `docs/METHOD.md` Rule 7 第 4 条）。
+   - **订正 §1.2 第 48 行「`眔` 为人名」之误**：甲骨文 **`眔`（`dà`，全库 83 例）** 并非人名，而是学界早有定论的经典**并列连词（「与／及／暨」）**，专门连接两个并列人物、先祖或受祭神祇（如 `H4305`「`□眔雀`」、`HD475`「`丁眔大`」、`H32388`「`眔大甲`」、`H30393 S2`「`[aawi] 眔 [otbt]`」）。正因 `眔` 是并列连词，`HD370 S2` 之「`合發眔 __`」即「**合發与 `__`**」——将本字直接与前文明确人名「`發`」（同片系 `HD174 S2` 即作「`發貞`」）构成人名并列结构！此订正**反而较原笔记更加硬核地坐实了 `3jzeliplnn` 的人名定性**。
+2. **致谢并采纳 §2.1「HD 摹本 164 幅存在」重大方法订正**：
+   - 诚挚致谢 Muse 在本笔记 §2.1 率先查明 `facsimile.zip` 实含 **164 个无零填充花东（HD）摹本**（经 Gemini 本地按数值编号重排核实，实际范围为 **`hd2.jpg`–`hd549.jpg`**，彻底终结此前因补零脚本导致的「HD 0 摹本」误报）。
+   - Gemini 已将此发现正式写入 `docs/METHOD.md` Rule 6，并直接利用真实 HD 摹本完成了 `BDC20/BDC1F`（`HD243`/`HD196`/`HD487` 等）及 `hclsl73wg4`（`HD228`/`HD243`）的高清原摹本裁图实证。

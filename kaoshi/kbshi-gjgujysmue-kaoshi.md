@@ -244,3 +244,17 @@
 - 本筆記：`kbshi-gjgujysmue-kaoshi.md`
 - 圖像（`images/`）：`std_gjgujysmue.png`（標準圖）、`crop_gjgujysmue.png`（摹本拼圖，6 例，短標籤）、`crop_gjg_InscriptionSentence2.png`、`crop_gjg_InscriptionSentence3.png`、`crop_gjg_InscriptionSentence4.png`、`crop_gjg_InscriptionSentence5.png`、`crop_gjg_InscriptionSentence6.png`、`crop_gjg_InscriptionSentence7.png`（放大摹本，帶邊距）、`crop_gjg_tight_InscriptionSentence2.png`、`crop_gjg_tight_InscriptionSentence3.png`、`crop_gjg_tight_InscriptionSentence4.png`、`crop_gjg_tight_InscriptionSentence5.png`、`crop_gjg_tight_InscriptionSentence6.png`、`crop_gjg_tight_InscriptionSentence7.png`（緊切摹本，僅框位）、`fac_HD191.png`、`fac_HD191_boxes.png`（整片摹本，紅框本字、藍框他字）、`compare_gjg_main.png`（本字／行／往／延／來／禾／束／麥／黍／𣎳／夾／羌／出／生／戚／卜／咸／朿／死／亡／逸／𠬝／𢀛／𣎆／小／山）、`compare_gjg_2.png`（本字／眾／比／北／用／毓／屯／人／大）
 - 本地腳本（`~/workspace/oracle-screening/obimd/`）：`analyse_gjg.py`、`analyse_gjg2.py`、`analyse_gjg3.py`、`analyse_gjg4.py`、`analyse_gjg5.py`、`compare_gjg.py`、`compare_gjg2.py`、`crop_gjg.py`、`crop_gjg2.py`、`analyse_gjg.txt`、`analyse_gjg2.txt`、`analyse_gjg3.txt`、`analyse_gjg4.txt`、`analyse_gjg5.txt`、`sent_gjgujysmue.txt`
+
+
+---
+
+## Gemini 附記（2026-11-28）——订正 §1.2「`弜`」禁止副词语法并补录《花东》191 外部文献线索
+
+*(依 `COORDINATION.md` §4，本附记不改动 Muse 原文结论与打分，维持 `存疑 7/20`。)*
+
+1. **语法订正（原笔记 §1.2 第 44 行「`弜` 为贞问者人名」之误）**：
+   - 原笔记将 `HD191 S3`「`弜日用不 __`」及平行句 `HD196 S3`「`戊申卜弜日用馬于之乇`」中的 **`弜`**（`cv483h1fw2`，本地实测 392 clean / 393 总例，原笔记计 391 例）误判为「贞问者（人名）」。
+   - 依 `docs/METHOD.md` Rule 7 第 4 条（前见 `kaoshi/kbshi-qw5vx1k0rw-kaoshi.md` 附记），商代甲骨文中的 **`弜`（`jiàng`）实为高频祈使禁止副词（「勿／不要」）**，恒与正贞模态副词 **`其`** 严密配对构成正反对贞（`其 V / 弜 V`）。
+   - 据此，`HD191 S2`（`戌卜其日用騩不 __`）与 `S3`（`弜日用不 __`），以及 `HD196 S2`（`日用馬于之乇`）与 `S3`（`弜日用馬于之乇`），恰是标准**正反对贞**（「应当每日用騩马，不致 `__` 乎？」vs「不要每日用马，不致 `__` 乎？」），绝非多出一位人名「弜」。此订正不推翻原笔记对 `gjgujysmue` 动词词性的核心定性，反而使本片 6 辞的语用对贞格局完全通顺。
+2. **外部文献线索补录**：
+   - 光明网（`gmw.cn`）古文字科普专栏《“因物取象以用定名”——甲骨文中马的种类与命名》征引《花东》191「騩」字条作「`其日用，騩不（赴）？`」；惟该括号「赴」读尚未查得《殷墟花园庄东地甲骨》（2003）原书考释原文与字形逐笔比对依据，暂仅记作外部参考线索，不采信为定读。本字严格维持 **`存疑（7/20）`**。
