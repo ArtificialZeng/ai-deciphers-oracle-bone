@@ -54,13 +54,8 @@ Unihan (and dictionaries) for the CJK character first:
    standard glyph is 卜 over 鼎).
 4. `is_pua` must cover Plane 10 or be replaced by the codepoint field
    (戎's first transcription item is U+AEED6, Plane 10).
-5. Standard glyph images can contain strokes intruding from a neighbouring
-   graph — verify any detached side component against facsimile crops.
-   Facsimile crop coordinates can point at blank space (reverse side or
-   coordinate error) — verify crops are readable before using them.
-6. HD (Huayuanzhuang East) facsimiles are absent from `facsimile.zip`
-   (0 HD files): for HD-only glyphs the glyph description rests on the
-   standard image alone — record that honestly.
+5. **Never trust `subchar-images.zip` vectorizations alone — always crop real `facsimile.zip` same-plate images:** Standard glyph images can contain strokes intruding from a neighbouring graph OR suffer platform redraw distortion that invents false splits between identical characters. **Documented lesson (`1yynvi0pfn` vs `tyazlz2ugv` on `H35462`, 2026-11-28):** OBIMD's standard images redrew `tyazlz2ugv` with a reduced `丁` base and `1yynvi0pfn` with a `凵` top, making them look distinct; cropping `H35462 S1` and `H35462 S3` directly from `facsimile/h35462.jpg` (`kaoshi/images/audit_1yynvi0pfn_vs_tyazlz2ugv.png`) proves they are the exact same glyph carved by the same scribe on the same bone. Facsimile crop coordinates can also point at blank space (reverse side or coordinate error) — verify crops are non-blank and readable before using them.
+6. **HD (Huayuanzhuang East) facsimiles ARE present in `facsimile.zip` — 164 files (`hd2.jpg`–`hd549.jpg`, unpadded filenames; corrected 2026-11-27/28):** Muse (`kbshi-3jzeliplnn-kaoshi.md` §2.1) discovered that early scripts failed to find HD images because they searched zero-padded names (`hd00174.jpg`) instead of unpadded `hd<N>.jpg` (`facsimile/hd2.jpg` through `facsimile/hd549.jpg`, 164 HD files verified locally by numeric sort). Always read the exact `Facsimile` field from `data.json` rather than fabricating zero-padded filenames. The earlier "0 HD facsimiles" claim is retired.
 
 ## The OCR phantom rule
 
@@ -135,16 +130,11 @@ Before opening a new kaoshi note on any OBIMD UID:
    on specialist sites (`bsm.org.cn`, `fdgwz.org.cn`, Academia Sinica, CNKI /
    《古文字研究》) using both modern conventional readings and structural IDS
    descriptions.
-4. **Check standard oracle-bone function words — the `弜` prohibitory-adverb
-   trap:** Never gloss high-frequency oracle-bone grammar particles by their
-   《说文》 lexical gloss alone. Documented case (`qw5vx1k0rw`, H32545 S2 `弜 __`):
-   **`弜` (`jiàng`)** is the standard modal prohibitory adverb (**`勿 / 不要`**),
-   paired with `其` in positive/negative divination (`其 V / 弜 V`), NEVER the
-   《说文》 adjective "strong (彊)" or a personal name here; recognizing `弜`
-   immediately locks the following slot as a **verb** and excludes noun hypotheses.
-5. For any phonological claim, provide **dual-system Old Chinese reconstructions**
-   (Zhengzhang 2003 + Baxter–Sagart 2014 v1.1) and never mix Middle Chinese
-   transcriptions into an Old Chinese table.
+4. **Check standard oracle-bone function words — the `弜` prohibitory-adverb & `眔` conjunction traps:** Never gloss high-frequency oracle-bone grammar particles by their 《说文》 lexical gloss or treat them as personal/diviner names.
+   - **Prohibitory adverb `弜` (`jiàng`) & modal `其`:** `弜` is the standard modal prohibitory adverb (**`勿 / 不要`**), paired with `其` in positive/negative divination (`其 V / 弜 V`), NEVER the 《说文》 adjective "strong (彊)" or a diviner/personal name (documented cases: `qw5vx1k0rw` `H32545 S2`, `gjgujysmue` `HD191 S3` / `HD196 S3`, `3jzeliplnn` `HD370 S2–S4`). Recognizing `弜` immediately locks the following slot as a controllable **verb** and excludes noun hypotheses.
+   - **Coordinating conjunction `眔` (`dà`, 83 tokens in OBIMD):** `眔` is the standard oracle-bone coordinating conjunction (**`与 / 及 / 暨`**) linking parallel personal names, ancestors, or deities (e.g., `H4305 □眔雀`, `HD475 丁眔大`, `H32388 眔大甲`, `H30393 S2 [aawi]眔[otbt]`, `HD370 S2 合發眔__`). Never misclassify `眔` as a personal name (documented case: `3jzeliplnn` §1.2 L48).
+5. **Same-plate facsimile check before claiming "two distinct characters":** Whenever a candidate shares a formulaic slot with a high-frequency known graph (especially on the same bone/shell), crop BOTH tokens directly from `facsimile.zip` side-by-side (`1yynvi0pfn` vs `tyazlz2ugv` on `H35462`) and inspect `Main-character.json` adjacent codepoint blocks (`U+BDC18–BDC43` pure `羊` block for `BDC20`/`BDC1F`; `U+F90D1`/`U+F9109` for `勺`) before concluding it is an undeciphered new graph.
+6. For any phonological claim, provide **dual-system Old Chinese reconstructions** (Zhengzhang 2003 + Baxter–Sagart 2014 v1.1) and never mix Middle Chinese transcriptions into an Old Chinese table.
 
 ### Authoritative baseline and 4-tier difficulty gradient
 

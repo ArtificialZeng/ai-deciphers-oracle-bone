@@ -1,4 +1,4 @@
-# 甲骨文考释权威排除名单与编码陷阱指南（EXCLUSION LIST — 2026-11-26）
+# 甲骨文考释权威排除名单与编码陷阱指南（EXCLUSION LIST — 2026-11-28 更新）
 
 > **用途**：在向任何甲骨文字发起新考释前，**必须先核对本文件**（配合 `docs/METHOD.md` 规则 7）。本清单汇总权威统计基线、中国文字博物馆历批获奖已释字、近年学界已确认释读成果、本仓库已剔除的 OBIMD 假未释项、争议字重读边界、语义已决字以及高发 Unicode 编码陷阱，防止重复“破译”已释字或误踩假码。
 
@@ -47,15 +47,26 @@
 | **`隮`** | 已确认释读 | 近年学界确认研究成果，移出未释池 |
 | **`鼄`**（单字本身） | 已释（单字） | 单字 `鼄` 早已释读；须与武丁宾组三字兆语公式 `不𦀓鼄` 之整体释读悬案严格区分 |
 | **`徝`** | **`= 值`** | 陈逸文考释确认 |
-| **`𠬝`**（`U+20B1D`，OBIMD `cvzszyp6bm`） | **`= 服`（*fú*）** | 服之初文，《说文》《汉语大字典》与 CUHK 字库早已载明；Muse 已核验移出（`kaoshi/kbshi-cvzszyp6bm-kaoshi.md`） |
-| **`𰇑`**（`U+301D1`，`⿱册口`，OBIMD `h82z1bo3i3`） | **`= 𣆑`（`U+23191`）／`冊`** | 祭祀用牲之法（于省吾读「刪」）；`zi.tools`、汉典、王辉《古文字通假字典》（页 263）及《合集》886/908/31137 刊布释文印证；Gemini 2026-11-26 建议移出未释池（`kaoshi/kbshi-h82z1bo3i3-kaoshi.md` 附记） |
-| **`勺（礿）`**（OBIMD EMPTY #1 `cdd4p6xm9e`，140 clean / 120 片） | **祭祀动词 `勺（礿）`**（纯三笔，与 `升` `viv127p4q5` 截然分明） | 《合集》313、380 刊布释文作 `勺`，且 Gemini 2026-11-26 本地 OBIMD 10 片原摹本实测（`kaoshi/images/crops_cdd4p6xm9e.png`）**100% 证实**为纯三笔 `勺`、非专名、未与 `升` 混并；建议正式移出未释池（`kaoshi/ranking-20261126.md` Gemini 附记） |
-| **`鞀（鼗）`**（OBIMD `a5tuvlp0po`，8 clean / 8 片，Muse R26） | **打击乐器／乐祭名「鞀（鼗）」**（非酒器「酉」） | 裘锡圭考定；《合集》23610「于翌乙未大鞀」（即后世「大韶」）、15802「鞀唯侑」、15805「王益鞀」，配本地原摹本 `kaoshi/images/crops_a5tuvlp0po.png`；Gemini 2026-11-26 建议移入已释池（`kaoshi/kbshi-a5tuvlp0po-kaoshi.md` 附记） |
-| **`舞`**（OBIMD `e33qe36es7`，7 clean，原列 `TASKS.md` Next #2） | **祈雨繁构「舞」（从雨从無）** | Gemini Rule 7 预筛拦截（`kaoshi/images/survivors_vs_known.png`）；《合集》30029「呼舞亡大雨」、30041「于翌日丙舞有大雨」，**严禁作为未释字攻关** |
-| **`衛`**（OBIMD `pmjqw82db0`，6 clean） | **`= 衛`**（`韋 + 行`） | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》7888「師往衛」 |
-| **`黍`**（OBIMD `01v0id7th0`，5 clean，全花东） | **`= 黍`** | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《花东》218、379「子其匄黍于帚」 |
-| **`最 / 子`**（OBIMD `dzob6ag7n1`，5 clean） | **`= 最 / 子`** | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》30885「叀最至」、《花东》291「子/最祝」 |
-| **`豕`**（OBIMD `gbjr7sabn4`，5 clean） | **`= 豕`**（竖立猪形异体） | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》32049、32050「卯三十豕」 |
+| **`𠬝`**（`U+20B1D`，OBIMD `cvzszyp6bm`） | **`= 服`（*fú*）** | 服之初文，《说文》《汉语大字典》与 CUHK 字库早已载明；Muse 已核验移入 Section A（`kaoshi/kbshi-cvzszyp6bm-kaoshi.md`） |
+| **`秝`**（`U+A6D89`，OBIMD `lyq3tnc036`，7 clean / 7 片） | **`= 秝`（*lì*，武丁宾组贞人）** | 二禾並立，与《说文》「从二禾」及 CUHK 秝条「又用为人名」逐部相合；Muse R30（`bab1ae7`）已核验移入 Section A（`kaoshi/kbshi-lyq3tnc036-kaoshi.md`，16/20） |
+| **`𰇑`**（`U+301D1`，`⿱册口`，OBIMD `h82z1bo3i3`） | **`= 𣆑`（`U+23191`）／`冊`** | 祭祀用牲之法（于省吾读「刪」）；`zi.tools`、汉典、王辉《古文字通假字典》（页 263）及《合集》886/908/31137 印证；Gemini 11-26 附记＋**Muse `claude-reply` §2.2 签字移入 Section A** |
+| **`勺（礿）`**（OBIMD EMPTY #1 `cdd4p6xm9e`，140 clean / 120 片） | **祭祀动词 `勺（礿）`**（纯三笔，与 `升` `viv127p4q5` 截然分明） | 《合集》313、380 刊布释文作 `勺`，且 Gemini 10 片原摹本实测（`kaoshi/images/crops_cdd4p6xm9e.png`）100% 证实；**Muse `claude-reply` §2.4 签字移出未释池** |
+| **`鞀（鼗）`**（OBIMD `a5tuvlp0po`，8 clean / 8 片，Muse R26） | **打击乐器／乐祭名「鞀（鼗）」**（非酒器「酉」） | 裘锡圭考定；《合集》23610「于翌乙未大鞀」、15802「鞀唯侑」、15805「王益鞀」（`crops_a5tuvlp0po.png`）；Gemini 11-26 附记＋**Muse `claude-reply` §2.3 签字移入 Section A** |
+| **`e33qe36es7`**（`U+C9F41`，7 clean / 6 片） | **领先读法「`舞`」（从雨从無祈雨繁构，未刊纸本确证；保留禁攻）** | 按 Muse `kbshi-e33qe36es7-adjudication-20261126.md` 裁决，软化原「已释·舞」定性为「领先读法舞、未刊确证，留存疑 12/20」；因已由双方完成全析，**保留禁攻状态，不再重攻** |
+| **`pmjqw82db0`**（6 clean） | **`= 衛`**（`韋 + 行`） | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》7888「師往衛」 |
+| **`01v0id7th0`**（5 clean，全花东） | **`= 黍`** | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《花东》218、379「子其匄黍于帚」 |
+| **`dzob6ag7n1`**（5 clean） | **`= 最 / 子`** | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》30885「叀最至」、《花东》291「子/最祝」 |
+| **`gbjr7sabn4`**（5 clean） | **`= 豕`**（竖立猪形异体） | Gemini Rule 7 预筛拦截（`survivors_vs_known.png`）；《合集》32049、32050「卯三十豕」 |
+| **`BDC20` / `BDC1F`**（`nms96pmn1w` 41 例 / `wq47pyztal` 19 例，共 60 tokens，待联合裁决） | **`= 牝羊（羊+匕）` / `牡羊（羊+土）`** | Gemini 2026-11-28 五重互证（`kaoshi/images/audit_bdc20_bdc1f_vs_yang.png`）：`U+BDC18–BDC43` 纯羊部码段＋`羊` 双子形（`aoai`/`o6eq`）＋朱歧祥花东羊首短横＋`HD243/196/487` 实景摹本＋`xianqin.org`《花东》487「羊匕一」；提请联合裁决移入 Section A |
+| **`bu3h266vxh`**（`U+F9109`，6 clean，待联合裁决） | **`= 勺`**（武丁师组／𠂤组贞人名） | Gemini 2026-11-28 交叉复核（`kaoshi/images/audit_bu3h_shao_and_refqn_yumu.png`）：《合集》20022 刊布释文「戊午卜，**勺**，侑小王」（`ritsumei.ac.jp`/`guoxue.com`/`fdgwz.org.cn`）＋邻码 `U+F90D1(勺)`；提请联合裁决移入 Section A |
+| **`1yynvi0pfn`**（`U+A6D81`，6 clean，待联合裁决） | **未归并重复异体 `= tyazlz2ugv`（`𫩀/柰/叔`，163 clean）** | Gemini 2026-11-28 同片 `H35462 S1` vs `S3` 原摹本直证（`kaoshi/images/audit_1yynvi0pfn_vs_tyazlz2ugv.png`），系平台标准图描改失真造成的误拆；提请联合裁决移入 Section B |
+| **`0fig5rmiox`**（`U+F3206`，5 clean / 4 片，高危拦截） | **高危疑似 `求`（`aki498y6jc`）未归并异体——「`求示`」（伊尹舅示）** | 蔡哲茂（1987《殷卜辭「伊尹龜示」考》）已将 `H14348`/`H14349`/`H14358` 释为「求示」；原摹本与 OBIMD「求」高度相似（`kaoshi/images/audit_0fig5rmiox_vs_qiu.png`），**严禁作为未释字单列考释笔记** |
+| **`9c9zf6hv2z`**（`U+BEFC5`，4 clean / 4 片） | **`= 掫 / 驟`**（`大驟風`） | Gemini 2026-11-28 Rule 7 拦截：`H13359`/`13361`/`13364`/`13365`「`大__風`」既释气象词，严禁作未释字攻关 |
+| **`97dgghy3oj`**（`U+B057B`，5 clean / 2 片 HD） | **`= 斝`**（花东地名） | Gemini 2026-11-28 Rule 7 拦截：`HD363`/`HD480`「`在__`」「`來狩自__`」花东既释地名 |
+| **`ig9oetqcmy`**（`U+D00C9`，5 clean / 2 片 HD） | **`= 麓`**（花东地名） | Gemini 2026-11-28 Rule 7 拦截：`HD375`/`HD494`「`在__`」花东既释地名 |
+| **`oqwz3j1hh1`**（`U+FE247`，3 clean / 3 片） | **`= 祀`** | Gemini 2026-11-28 Rule 7 拦截：`H4261`/`H15502`/`H30909` OBIMD 未归并已释字 |
+| **`kk9zxal8u7`**（`U+A986A`，3 clean / 2 片） | **`= 宋`** | Gemini 2026-11-28 Rule 7 拦截：`H30386`/`H35673`（大宋／小乙宋／在宋）已释字 |
+| **`xeyf2mkerf`**（`U+ABF69`，3 clean / 3 片） | **`= 柚`** | Gemini 2026-11-28 Rule 7 拦截：`H33082–33084`「`王翦__`」「`敦__`」既释地名／方国名 |
 
 ---
 

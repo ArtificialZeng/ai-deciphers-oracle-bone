@@ -4,91 +4,76 @@ Read `COORDINATION.md` before starting anything. Claim a UID here (in your
 branch) before attacking it; mark it done only when its kaoshi note has
 landed in a merged PR.
 
-## Done (landed on `main`, 2026-11-26 — Muse, commits `090ea77` & `14af5ba`)
+## Done (landed on `main` — Muse, commits `090ea77`, `14af5ba`, `bab1ae7`)
 
 - **Rounds 1–22 (`090ea77`)**: 22 notes / 23 targets (`kaoshi/kbshi-*.md`).
-  Original Muse headline: 成立 0; 𠬝 = 服 *fú* removed as already deciphered;
-  6 closed as proper names / unmerged variant; 16 存疑.
-- **Rounds 23–27 (`14af5ba`)**: 5 more notes / 5 targets — `npykxas4c8` 存疑 7/20;
-  `dd5w09rr1q` 放弃（人名，9/20）; `bh6mqc68g2` 存疑 7/20（人名领先；“御子 X 于”
-  严格重数 11 例，dd5 笔记的 n=17 作废）; `a5tuvlp0po` 存疑 7/20（语义场缩至酒类；
-  *Gemini 附记查实为裘锡圭考定之打击乐器/乐祭名「鞀/大鞀」，建议移入已释*）;
-  `2bcusrt88g` 放弃（地名，9/20）.
-- **Muse totals on `main`**: 27 notes / 28 targets — 成立 0, 已释移出 1,
-  专名放弃 8, 存疑 19.
+- **Rounds 23–27 (`14af5ba`)**: 5 notes / 5 targets (`npykxas4c8`, `dd5w09rr1q`,
+  `bh6mqc68g2`, `a5tuvlp0po`, `2bcusrt88g`).
+- **Rounds 28–37 (`bab1ae7`, 2026-11-27)**: 9 new full kaoshi notes (`3jzeliplnn`
+  放弃·人名 13/20 + HD 164 摹本发现; `e33qe36es7` + `e33` 裁决附记〔**舞说 12/20 领先**，原 15/20 霖说撤回〕; `lyq3tnc036` 放弃·已释贞人秝 16/20; `5jcghtltbx` 存疑 7/20; `gjgujysmue` 存疑 7/20; `bu3h266vxh` 放弃·贞人名 9/20; `xyp0ngvyd7` 放弃·地名 8/20; `refqnby49o` 存疑 7/20; `1yynvi0pfn` 存疑 9/20) + `reports/claude-reply-to-gemini-2026-11-26.md`（签字批准 Gemini PR #1 四项联合裁决：`0bcp` A 说撤回、`h82` & `a5t` 移入 Section A、`cdd4` 移出未释池）。
+- **Muse totals on `main`**: **36 notes / 37 targets** — 成立 0, 已释移出 4 (`𠬝`, `秝`, `𰇑`, `鞀`), 专名/异体放弃 11, 存疑 22.
 
-## Done (merged into `main` at `45775b1` via PR #1, 2026-11-26 — Gemini, reviewed & merged by Muse)
+## Done (merged into `main` at `45775b1` & `922d24d` via PR #1 & #2 — Gemini)
 
-*(Combined repo totals on `main`: **35 full notes / 37 targets** — **成立: 0**,
-已释移出 1, 专名/异体放弃 8, 存疑 28.)*
+- **PR #1 (`45775b1`, 2026-11-26)**: 8 cross-audit addenda, 8 standalone Gemini
+  notes (9 targets), 9 PNG sheets, `docs/METHOD.md` Rule 7, `docs/EXCLUSION-LIST-2026.md`,
+  5 Rule-7 interceptions (`e33`, `pmjq`, `01v0`, `dzob`, `gbjr`).
+- **PR #2 (`922d24d`, 2026-11-26)**: Chinese Changelog in `README.md` + empirical
+  < 50% stopping assessment for the OBIMD low-frequency tail.
 
-- **8 verified cross-audit addenda** appended non-destructively (per
-  `COORDINATION.md` §4): 7 on Muse's `kaoshi/kbshi-*.md` notes (`0bcpbg0geh`,
-  `ff8rp0nh6u`, `crck62eltz`, `gx21ndp7yy`, `h82z1bo3i3`, `qw5vx1k0rw`,
-  `a5tuvlp0po`) + 1 on `kaoshi/ranking-20261126.md` (EMPTY #1 `cdd4p6xm9e`
-  visually confirmed as pure 3-stroke `勺（礿）`).
-- **8 standalone Gemini kaoshi notes covering 9 targets** (`kaoshi/gemini-*.md`,
-  all strictly `存疑`, **成立: 0**):
-  1. `kaoshi/gemini-hclsl73wg4-youshan-kaoshi.md` — `𫹉` (`U+2BE49`, OBIMD `hclsl73wg4`, **452 clean / 381 片** locally measured; 12/20, `存疑`)
-  2. `kaoshi/gemini-heji36481-luwen-kaoshi.md` — 《合集》36481 `白[⿱鹿文]` (12/20, `存疑`)
-  3. `kaoshi/gemini-u209aa-kaoshi.md` — `𠦪` (`U+209AA`; 12/20, `存疑`)
-  4. `kaoshi/gemini-u2201b-gongfang-kaoshi.md` — `𢀛` (`U+2201B`, OBIMD `b2n32mdq0u` 54 clean vs `召` `vpcd7inkf9` 22 clean locally measured; 10/20, `存疑`)
-  5. `kaoshi/gemini-3xbmgmm4j0-kaoshi.md` — OBIMD `3xbmgmm4j0` (5 clean / 3 片, 历二「其 __ 眾」未释动词; 11/20, `存疑`)
-  6. `kaoshi/gemini-aelrb19u0i-kaoshi.md` — OBIMD `aelrb19u0i` (5 clean / 5 片, H12641–H12665 100% 前接「雨」气象修饰字; 10/20, `存疑`)
-  7. `kaoshi/gemini-o7eb365hnf-wvxqqsz1w8-kaoshi.md` — OBIMD 姊妹同基字组 **`o7eb365hnf`** (`東+戉`, 7 clean / 5 片; 11/20, `存疑`) & **`wvxqqsz1w8`** (`東+攴`, 6 clean / 4 片; 10/20, `存疑`)
-  8. `kaoshi/gemini-o68jkkro3f-kaoshi.md` — OBIMD `o68jkkro3f` (5 clean / 5 片, 门/宀内含酉与水滴宗庙酒礼动词; 10/20, `存疑`)
-- **9 verified PNG facsimile & audit evidence sheets** committed directly to
-  `kaoshi/images/` (`priority_audit_sheet.png`, `survivors_vs_known.png`,
-  `crops_cdd4p6xm9e.png`, `crops_a5tuvlp0po.png`, `crops_3xbmgmm4j0.png`,
-  `crops_aelrb19u0i.png`, `crops_o7eb365hnf.png`, `crops_wvxqqsz1w8.png`,
-  `crops_o68jkkro3f.png`).
-- **Rule-7 OBIMD pre-screening interceptions (DO NOT ATTACK):**
-  - **`e33qe36es7`** (7 clean — **was #2 on Muse's Next list!**) = **`舞`**（从雨从無祈雨繁构，`H30029 呼舞亡大雨`、`H30041 舞有大雨`）
-  - **`pmjqw82db0`** (6 clean) = **`衛`** (`韋+行`, `H7888 師往衛`)
-  - **`01v0id7th0`** (5 clean, HD) = **`黍`** (`HD218/379 子其匄黍于帚`)
-  - **`dzob6ag7n1`** (5 clean) = **`最/子`** (`H30885 叀最至`, `HD291 子/最祝`)
-  - **`gbjr7sabn4`** (5 clean) = **`豕`** (`H32049/32050 卯三十豕`)
-- **Methodology & exclusion infrastructure:** `docs/METHOD.md` (Rule 7
-  literature gate + `弜` trap + 4-tier gradient), `docs/EXCLUSION-LIST-2026.md`,
-  and `reports/gemini-handoff-2026-11-26.md`.
+## In review (PR #3 branch `gemini/wvx-deep-kaoshi-and-audits-2026-11-28` — Gemini)
 
-## In progress / Claimed (do not duplicate)
+*(Combined repo totals once PR #3 merges: **45 full notes / 48 targets** — **成立: 0**,
+已释移出 4, 专名/异体放弃 11, 存疑 33 [22 Muse + 11 Gemini].)*
 
-- **Gemini: PAUSED under the owner's 50% breakthrough-confidence stopping rule (2026-11-26).**
-  Local OBIMD remaining-pool census confirms all `clean ≥ 8` UIDs are exhausted; the
-  remaining **462** unattacked EMPTY/PUAONLY UIDs top out at `clean = 7` (4 UIDs),
-  with **412 / 462 (89.2%) having ≤ 3 tokens** and **297 / 462 (64.3%) hapaxes**.
-  Under the current OBIMD-only + public-web setup, odds of closing a genuine new `成立`
-  decipherment are estimated at **< 50% (~5%–15%)**. Gemini will not claim new OBIMD
-  tail UIDs unless new primary corpora (full 《合集》 transcriptions, Shang-Zhou bronzes,
-  Warring States Chu slips, or physical library/museum plates) are brought in.
-- **Muse: none actively in flight right now** (finished rounds 23–27 in `14af5ba` and
-  merged PR #1 at `45775b1`; adjudication reply on `h82z1bo3i3`, `a5tuvlp0po`,
-  `cdd4p6xm9e`, and `0bcpbg0geh` pending per `45775b1` merge note).
-- Any agent starting a new round must claim its UID here first AND run
-  `docs/METHOD.md` Rule 7 before writing a note.
+- **12 new high-res OBIMD PNG evidence sheets** (`kaoshi/images/` now totals **21**
+  Gemini PNGs) + **top-of-note inline `![...](images/...)` embeds across ALL 9
+  `kaoshi/gemini-*.md` notes** (先看原字图版，再读考释) + **Word (`.docx`) edition**
+  at `exports/ai-deciphers-oracle-bone-gemini-kaoshi-2026-11-28.docx`.
+- **Deep upgrade of `wvxqqsz1w8` (10→11/20, `存疑`) & `o7eb365hnf` (11/20, `存疑`)**
+  in `kaoshi/gemini-o7eb365hnf-wvxqqsz1w8-kaoshi.md` (`H30393` Rosetta link,
+  `b92fu80uys` base correction, `束+攴/敕` promoted, `敶/陳` downgraded, `H575=丙75`
+  「辣」 ref) + OBIMD `1wismy95hz` (`224 clean / 172 plates`) added to `gemini-u209aa-kaoshi.md`.
+- **Gemini standalone note #9** (`kaoshi/gemini-b037aq4o64-g7m9i371p4-kaoshi.md`):
+  single-plate high-constraint leads `b037aq4o64` (`H30373=戩26.3`, 9/20, `存疑`) &
+  `g7m9i371p4` (`H13389`, 8/20, `存疑`).
+- **6 new non-destructive `## Gemini 附記（2026-11-28）` addenda** on Muse notes
+  (`kbshi-bdc20-bdc1f`, `kbshi-1yynvi0pfn`, `kbshi-bu3h266vxh`, `kbshi-refqnby49o`,
+  `kbshi-gjgujysmue`, `kbshi-3jzeliplnn`; 0 deleted lines across all Muse files).
+- **Reconciled governance docs & handoff reply**: `README.md`, `RESULTS.md`,
+  `TASKS.md`, `docs/METHOD.md` (Rule 6 HD 164 files + `眔` + same-plate facsimile
+  rule), `docs/EXCLUSION-LIST-2026.md` (`e33` softened per Muse adjudication +
+  new Rule-7 catches incl. `0fig5rmiox ≈ 求示` + 6 additional known UIDs), and
+  `reports/gemini-reply-to-muse-2026-11-28.md`.
 
-## Next (unclaimed candidates — MUST pass Rule 7 literature gate first)
+## Pending adjudication / Blocked (do not re-attack)
 
-1. `3jzeliplnn` (7 clean, EMPTY, all HD, dispersed slots)
-2. `lyq3tnc036` (7 clean; 贞人名 risk 2/7, rest dispersed)
-3. `5jcghtltbx` (7 clean, unchecked)
-4. 6–5 clean-token pool survivors (unchecked against Rule 7): `gjgujysmue`, `bu3h266vxh`, `xyp0ngvyd7`, `refqnby49o`
+- **Pending Muse / owner joint adjudication (from Gemini 2026-11-28 addenda):**
+  - `BDC20` (`nms96pmn1w`, 41 clean) & `BDC1F` (`wq47pyztal`, 19 clean) → recommended for **Section A (`牝羊` / `牡羊`, 60 tokens)** (`audit_bdc20_bdc1f_vs_yang.png`).
+  - `bu3h266vxh` (`U+F9109`, 6 clean) → recommended for **Section A (师组贞人 `勺`, `H20022`)** (`audit_bu3h_shao_and_refqn_yumu.png`).
+  - `1yynvi0pfn` (`U+A6D81`, 6 clean) → recommended for **Section B (unmerged duplicate of `tyazlz2ugv` `𫩀/柰/叔`, proven on same-plate `H35462`)** (`audit_1yynvi0pfn_vs_tyazlz2ugv.png`).
+- **Blocked by Rule 7 (DO NOT create standalone undeciphered notes):**
+  - **`0fig5rmiox`** (`U+F3206`, 5 clean / 4 片: `H14348/14349/14350/14358`) — high-risk suspected unmerged variant of `求` (`求示`, 蔡哲茂 1987; `audit_0fig5rmiox_vs_qiu.png`).
+  - Newly confirmed Rule-7 known UIDs: `9c9zf6hv2z` (`掫/驟`), `97dgghy3oj` (`斝`), `ig9oetqcmy` (`麓`), `oqwz3j1hh1` (`祀`), `kk9zxal8u7` (`宋`), `xeyf2mkerf` (`柚`).
+  - Earlier Rule-7 / signed exclusions: `cdd4p6xm9e` (`勺`), `a5tuvlp0po` (`鞀`), `h82z1bo3i3` (`𰇑`=`𣆑`/`冊`), `lyq3tnc036` (`秝`), `e33qe36es7` (`舞` leading — closed/do not re-attack), `pmjqw82db0` (`衛`), `01v0id7th0` (`黍`), `dzob6ag7n1` (`最/子`), `gbjr7sabn4` (`豕`).
 
-**Excluded / Do NOT attack:**
-- **Rule-7 known-character interceptions (Gemini 2026-11-26):** `cdd4p6xm9e` (`勺`), `a5tuvlp0po` (`鞀`), `h82z1bo3i3` (`𰇑`=`𣆑`/`冊`), **`e33qe36es7` (`舞`)**, `pmjqw82db0` (`衛`), `01v0id7th0` (`黍`), `dzob6ag7n1` (`最/子`), `gbjr7sabn4` (`豕`).
-- **Already completed by Gemini (Batch 2):** `o7eb365hnf`, `wvxqqsz1w8`, `3xbmgmm4j0`, `aelrb19u0i`, `o68jkkro3f`.
-- **Not recommended (proper-name dominant):** `gs24si06qj` / `7f1o1pqd9w` ("令 __" dominant, high personal-name risk); `a0xx5u34nm` (子名第二字槽), `0zij73e4bo` ("__ 甲" 先祖名槽疑), `7w3mprfyzd` ("卜 __ 貞" 贞人名) — all skipped.
+## In progress / Standing pause policy
+
+- **Gemini: REMAINS PAUSED on sweeping the low-frequency OBIMD tail** under the
+  owner's 50% breakthrough-confidence stopping rule (2026-11-26). All `clean ≥ 6`
+  viable OBIMD candidates are now attacked or intercepted. Gemini will NOT claim
+  further low-frequency OBIMD tail UIDs unless new primary corpora (full 《合集》+
+  《合补》+《屯南》+《花东》 transcriptions, Shang-Zhou bronzes, Warring States Chu
+  slips, or physical museum/library plates) are introduced.
+- **Action needed from Muse on next pull:** Run `git pull origin main` inside
+  Muse's VM clone so `docs/EXCLUSION-LIST-2026.md` and `docs/METHOD.md` Rule 7
+  are present locally (Muse's R35–37 notes reported the file was still absent
+  in Muse's local VM clone!).
 
 ## Remaining operational & physical checks
 
 1. **Muse 173 PNG images (`kaoshi/images/`, local commit `1831007`):**
-   Gemini already downloaded `KLOBIP/OBIMD` locally and completed the `hclsl73wg4` 452-clean census, `cdd4p6xm9e` 10-crop proof, `0bcpbg0geh` `U+B6AF4` audit, and committed 9 PNG sheets; only Muse's 173 PNG bundle for rounds 1–27 still awaits transfer via git bundle / base64 tar.
-2. **Printed library & museum checks:**
-   - Full 55-plate print verification of 《合集》Vol. 12 (`H35398–H35911`) plus printed 《合集释文》 lookups for Gemini's 5 newly profiled OBIMD UIDs (`H31994/31995/33232`, `H12641–H12665`, `H575/1448/3158/7937/8132`, `H30329–H30455`, `H471/3254/15821–15823`).
-   - 《新甲骨文编》 entries, 2003 《殷墟花园庄东地甲骨》 published transcriptions + Zhu Qixiang 《校釋》 (testing `gx21ndp7yy` `案→宴` on HD290/454/475, plus `fi0wiw1adi`, `BDC20/BDC1F`, `xdimpzk5q6`, `4a6130bz6w`).
-   - 1980 《小屯南地甲骨》 H24 plate (`[甲寅，酉彡五牢]`).
-   - National Museum Y0699 high-res macro check (`白[⿱鹿文]` lower radical `文` vs `心`).
-   - Western Zhou chariot-ornament inscription check for `𠦪` (`燾/幬` vs `笰/茀` rhyme test in 冀小军 1991).
-   - Physical Raman HgS cinnabar spectroscopy & 3D crack-morphology statistics on `不𦀓鼄` bones (《合集》10229 / 甲3339, 《丙》28/30).
-   - 《甲骨文字综理表》 (2024) per-entry lookup; spot-check OBIMD Heji mapping at H5250 / H30528 vs printed 《合集》.
+   Still pending bundle upload/transfer from Muse's VM (`oracle-kaoshi-rounds-1-22.bundle`, 5.8 MB).
+2. **Printed library & museum checks:** See `RESULTS.md` Outstanding checks
+   (《合集释文》, 《丙编》75, 《花东》2003, 《新甲骨文编》, 《甲骨文字综理表》2024,
+   国博 Y0699, 西周车饰铭文, 小屯南地 H24, 拉曼光谱).

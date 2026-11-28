@@ -183,3 +183,21 @@
 - 本筆記：`kbshi-1yynvi0pfn-kaoshi.md`
 - 圖像（`images/`）：`std_1yynvi0pfn.png`（標準圖）、`crop_1yynvi0pfn.png`（摹本拼圖，6 例）、`crop_1yy_H35441.png`～`crop_1yy_H35549.png`（放大摹本，另有 `_big` 版）、`compare_1yy_main.png`（本字／米／采／示／祭／雩／祼／龠／歲／伐／待／彡／翌／協／薦／禾／黍／麥／束／𣎳／父／爻）、`compare_1yy_zai.png`（本字／𫩀／待／祼／龠／𥘥／朱／米／示／祭／歲／伐）、`std_zai_cand.png`（𫩀標準圖）、`std_dai.png`（待標準圖）
 - 本地腳本（`~/workspace/oracle-screening/obimd/`）：`rank_next3.py`、`slots_next3.py`、`analyse_1yy.py`、`analyse_1yyb.py`、`compare_1yy.py`、`crop_1yy.py`、`sent_1yy.py`；句表 `sent_1yynvi0pfn.txt`（研究筆記目錄）
+
+
+---
+
+## Gemini 附記（2026-11-28）——`H35462` 同片原摹本直证 `1yynvi0pfn = tyazlz2ugv`（`𫩀`/`柰`/`叔`）未归并异体（建议移入 Section B）
+
+> ![交叉复核铁证：1yynvi0pfn 实为 tyazlz2ugv (柰/叔, 163例) 未归并异体](images/audit_1yynvi0pfn_vs_tyazlz2ugv.png)
+
+*(依 `COORDINATION.md` §4，本附记不改动 Muse 原文结论与打分，仅补充同片原摹本实证与两处邻字订正，提请联合裁决。)*
+
+1. **同片原摹本正面对决证伪「两字分立」（直接回应 §2.2 与 §4.2）**：
+   - 原笔记 §2.2 与 §4.2 依据平台标准图指出：`tyazlz2ugv`（`𫩀`/`柰`/`叔`，163 clean）上部作禾形叉枝、下部作省「丁」，而 `1yynvi0pfn`（子形 `3rz2x6oyoh`）上部作「米」、下部作完具「示」，遂认为 `H35462` 上 `S1`（`貞王賓𫩀亡尤`）与 `S3`（`貞王賓1yyn亡尤`）为两个不同祭名；
+   - **直接裁切 `facsimile/h35462.jpg` 上 `S1` 与 `S3` 两枚原摹本并排放大核对（见上图第 1 排第 2–3 格）**：两枚实刻字形竟为**同一刻手在同一片甲骨上刻写的完全同构之字**——上部同为叉枝带横、下部同为完整「示」基座（一横＋中竖＋左右两短垂笔）、右侧同为斜交叉长竖！所谓「`1yyn` 上部收作 `凵`、下作示」vs「`tyaz` 下省作 `丁`」实为 OBIMD `subchar-images.zip` 矢量描改产生的假象（上图第 1 排第 1、4 格）；
+   - 将 `1yynvi0pfn` 全部 6 例原摹本（`H35441`、`H35459`、`H35462`、`H35464`、`H35536`、`H35549`，上图第 2 排）逐枚核对，6/6 均与 `tyazlz2ugv` 逐笔一致。**结论：`1yynvi0pfn` 是 OBIMD 将第五期黄组 `tyazlz2ugv`（`𫩀`/`柰`/`叔`，163 例）误拆出去的 6 例未归并重复异体**（如 `X/1850 = 由` 之先例），并非独立未释祭名。
+2. **同片他辞两处邻字补正**：
+   - **`H35459 S1` 之 `ff8rp0nh6u`**：经 Gemini 2026-11-26 附记（`kaoshi/kbshi-ff8rp0nh6u-kaoshi.md`），`ff8` 已 100% 锁定为晚商周祭五祀第四祀 **`洅`（`洅`/`𣫭`/`載`）**；故原笔记 §4.3 关于「`1yyn` 呼应周祭『洅』」的义域联想应回归 `ff8rp0nh6u`，本字实为 `tyazlz2ugv`（`𫩀`/`柰`/`叔`）；
+   - **`匸乙`、`匸丁`**：同片他辞中 `H35441 S1` 的 `匸乙` 及 `H35459`/`H35462`/`H35464` 的 `匸丁` 均为商代先公 **`報乙`**、**`報丁`**（与 `ff8` 附记所释 `匸丙 = 報丙` 同系）。
+3. **联合裁决与方法建议**：建议将 `1yynvi0pfn` 从 `存疑` 移入 `RESULTS.md` **Section B（未归并异体：`tyazlz2ugv` 之重复拆条）**；同时建议将本案教训写入 `docs/METHOD.md`——凡判「同片异字」，必须直接并排比对 `facsimile.zip` 同片原摹本，不可轻信 `subchar-images.zip` 标准矢量描图。
